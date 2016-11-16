@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Color Generator</title>
+	<link rel="stylesheet" type="text/css" href="colorgen.css"/>
+</head>
+<body>
+	<div id="divText">
+		<form id="form1">
+			<label>Red:</label><input type=text id="rInput" maxlength="3" value="255"><span id="rToHex"></span>
+			<label>Green:</label><input type=text id="gInput" maxlength="3" value="255"><span id="gToHex"></span>
+			<label>Blue:</label><input type=text id="bInput" maxlength="3" value="255"><span id="bToHex"></span>
+            <label></label>
+			<input type=button id="randomColor" value="Random Color" onclick="randomColorz()">
+		</form>
+		<p id="outputMessage"></p>
+	</div>
+	<script src="colorgen.js"></script>
+</body>
+</html>
